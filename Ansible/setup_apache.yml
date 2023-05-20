@@ -16,7 +16,7 @@
 
     - name: "copy code from GitHub"
       get_url:
-          url: https://www.nohello.com/
+          url: https://shivam-blog.blogspot.com/
           dest: "/var/www/html/index.php"
 
     - name: "Start httpd services"
