@@ -23,6 +23,15 @@ sudo systemctl status jenkins
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 
+## Instaling Terraform
+```
+sudo yum install -y yum-utils
+
+sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
+
+sudo yum -y install terraform
+```
+
 ## Installing Ansible on AL2 EC2
 ```
 sudo yum update
