@@ -1,4 +1,3 @@
-# README
 
 ## Installing Jenkins on AL2 EC2
 ```
